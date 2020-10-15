@@ -79,6 +79,23 @@
         "webpack-cli": "^3.3.10",
         "webpack-dev-server": "^3.10.3"
     },
+    "commitlint": {
+        "extends": [
+            "gitmoji"
+        ],
+        "rules": {
+            "header-max-length": [
+                2,
+                "always",
+                120
+            ],
+            "subject-case": [
+                0,
+                "always",
+                "sentence-case"
+            ]
+        }
+    },
     "config": {
         "commitizen": {
             "path": "./node_modules/@ksky521/cz-emoji"

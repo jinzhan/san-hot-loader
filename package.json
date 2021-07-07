@@ -4,7 +4,8 @@
     "description": "San hmr loader",
     "main": "index.js",
     "scripts": {
-        "test":"node scripts/test.js",
+        "commit": "git-cz",
+        "test": "node scripts/test.js",
         "dev": "webpack-dev-server --config examples/loader/webpack.config.js",
         "dev:babel": "webpack-dev-server --config examples/babel/webpack.config.js"
     },
